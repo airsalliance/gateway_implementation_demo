@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>Login with your 3scale Alexendria client_id and client_secret</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<style>
+		body 		{ padding-top:80px; }
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="col-sm-6 col-sm-offset-3">
+
+	<h1><span class="fa fa-sign-in"></span> Login</h1>
+
+
+	<!-- LOGIN FORM -->
+	<form action="/login" method="post" type="x-www-form-urlencoded">
+		<div class="form-group">
+			<label>client_id</label>
+			<input type="text" class="form-control" value="63065475" name="client_id">
+		</div>
+		<div class="form-group">
+			<label>client_secret</label>
+			<input type="password" class="form-control"  value="0e6facca6b1b000d2f545d30ef1fdf9d" name="client_secret">
+			<input type="hidden" value="client_credentials" name="grant_type">
+		</div>
+
+		<button type="submit" class="btn btn-warning btn-lg">Login</button>
+	</form>
+
+	<hr>
+
+
+</div>
+</div>
+</body>
+</html>
