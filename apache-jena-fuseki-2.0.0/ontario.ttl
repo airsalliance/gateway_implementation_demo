@@ -1,0 +1,597 @@
+<http://Ontario211.ca/InternetResource_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#InternetResource> ;
+        <http://purl.org/dc/terms/description>
+                "www.ymcagta.org/language"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#url>
+                <http://www.ymcagta.org/language > .
+
+<http://Ontario211.ca/ServiceArea_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#ServiceArea> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#servesGeographicArea>
+                <http://Ontario211.ca/Location_3> .
+
+<http://Ontario211.ca/Taxonomy_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Taxonomy> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#TaxonomyCode>
+                "BH-1850"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#taxonomyTerm>
+                "Emergency Shelter Clearinghouses"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Taxonomy_3c>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Taxonomy> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#TaxonomyCode>
+                "PL-7000-8800"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#taxonomyTerm>
+                "Swimming/Swimming Lessons"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/OpenHours_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#OpenHours> ;
+        <http://purl.org/dc/terms/description>
+                " Mon 9-5, Tues 9-7, Wed-Thur 9-5, Fri 9-1."@en .
+
+<http://Ontario211.ca/Site_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Site> ;
+        <http://purl.org/dc/terms/title>
+                "Language Assessment and Referral Centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#disabilities>
+                "Designated parking at entrance ; Wheelchair accessible automatic main entrance ; Easy access to elevator ; Elevator with braille and voice/tone features ; Barrier-free washroom including door and stalloms"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAddress>
+                <http://Ontario211.ca/Address_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgency>
+                <http://Ontario211.ca/Agency_2> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSiteService>
+                <http://Ontario211.ca/SiteService_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#locatedAtCrossStreet>
+                "Yonge St and College St."^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Taxonomy_5c>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Taxonomy> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#TaxonomyCode>
+                "TJ-3000.8000"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#taxonomyTerm>
+                "Specialized Information and Referral"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/ApplicationProcess_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#ApplicationProcess> ;
+        <http://purl.org/dc/terms/description>
+                " Walk in, no appointment required"@en .
+
+<http://Ontario211.ca/Location_5>
+        a       <http://purl.org/dc/terms/Location> ;
+        <http://purl.org/dc/terms/description>
+                "City of Toronto and former burroughs "^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/title>
+                "Toronto (City of)"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/LanguageAvailability_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#LanguageAvailability> ;
+        <http://purl.org/dc/terms/description>
+                "English, Russian, Chinese (Mandarin, Cantonese and Fujian), Farsi."@en .
+
+<http://Ontario211.ca/InternetResource_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#InternetResource> ;
+        <http://purl.org/dc/terms/description>
+                "www.ymcagta.org/newcomers"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#url>
+                <http://www.ymcagta.org/newcomers > .
+
+<http://Ontario211.ca/Service_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Service> ;
+        <http://purl.org/dc/terms/description>
+                "Street outreach, housing assistance, referrals to shelter system and respite for individuals who are homeless, living on the street or street involved * ID clinic*Housing Walk-in Service -- assistance in accessing permanent housing * individual plan development and intense ongoing advocacy * assists with obtaining social assistance * accompaniment to appointments including social assistance, housing, health care,legal consultation * recruits landlords * assists with rent negotiations * arranges long term supports for tenants and landlords * Housing Connections (see separate entry) Community Partner -- assistance with housing search and application process*Street Respite -- 24 hour drop-in with access to showers and snacks * laundry 7 am-11 pm*Walk-in Shelter Referral Service -- referral to shelter system for walk-in clients"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/title>
+                "Housing Assistance and Emergency Shelter Referral" ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgency>
+                <http://Ontario211.ca/Agency_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSiteService>
+                <http://Ontario211.ca/SiteService_1> .
+
+<http://Ontario211.ca/Document_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Document> ;
+        <http://purl.org/dc/terms/description>
+                "Call assessment hotline for information."@en .
+
+<http://Ontario211.ca/OpenHours_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#OpenHours> ;
+        <http://purl.org/dc/terms/description>
+                " Mon-Fri 5:30 am-11 pm * Sat-Sun 7 am-8 pm * holiday hours vary."@en .
+
+<http://Ontario211.ca/SiteService_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#SiteService> ;
+        <http://purl.org/dc/terms/title>
+                "TORONTO. STREETS TO HOMES ASSESSMENT AND REFERRAL CENTRE" ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAddress:>
+                <http://Ontario211.ca/Address_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgeRequirement:>
+                <http://Ontario211.ca/AgeRequirement_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasApplicationProcess>
+                <http://Ontario211.ca/ApplicationProcess_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasInternetResource>
+                < http://Ontario211.ca/InternetResource_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasLanguageAvailability:>
+                <http://Ontario211.ca/LanguageAvailability_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasTaxonomy>
+                < http://Ontario211.ca/Taxonomy_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#offersService:>
+                <http://Ontario211.ca/Service_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#openHoursDescription:>
+                "Housing walk-in service -- Mon, Wed, Fri 9 am-12 noon,  clients must arrive by 11:30 am  * walk-in shelter referral and respite services -- Mon-Sun 24 hours * ID clinic -  - Mon 12 noon-2 pm."@en ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#requiresGeneralEligibility>
+                "Homeless, living on the street or street involved individuals 16 years and older;Residency Requirements: City of Toronto."@en ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#servesGeographicArea:>
+                <http://Ontario211.ca/ServiceArea_1> ;
+        <http://www.w3.org/2006/vcard/ns#hasTelephone>
+                [ a       <http://www.w3.org/2006/vcard/ns#Voice> ;
+                  <http://www.w3.org/2006/vcard/ns#hasValue:tel>
+                          +14163384766
+                ] .
+
+<http://Ontario211.ca/Address_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Address> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isMailingAddress>
+                true ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isPhysicalAddress>
+                true ;
+        <http://www.w3.org/2006/vcard/ns#country-name>
+                "Canada"@en ;
+        <http://www.w3.org/2006/vcard/ns#locality>
+                "Toronto"@en ;
+        <http://www.w3.org/2006/vcard/ns#postal-code>
+                "M4Y2V5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#region>
+                "Ontario"@en ;
+        <http://www.w3.org/2006/vcard/ns#street-address>
+                "20 Grosvenor St, 3rd Fl"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Site_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Site> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#disabilities>
+                "Wheelchair accessible building including main entrance and barrier freewashrooms"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAddress>
+                <http://Ontario211.ca/Address_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgency>
+                <http://Ontario211.ca/Agency_2> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSiteService>
+                <http://Ontario211.ca/SiteService_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#locatedAtCrossStreet>
+                "Markham Rd and Highway 401"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Taxonomy_5b>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Taxonomy> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#TaxonomyCode>
+                "HL-2000.0560"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#taxonomyTerm>
+                "Adult French as a Second Language Tests"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/ApplicationProcess_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#ApplicationProcess> ;
+        <http://purl.org/dc/terms/description>
+                "Apply for membership in person or by phone"@en .
+
+<http://Ontario211.ca/Location_4>
+        a       <http://purl.org/dc/terms/Location> ;
+        <http://purl.org/dc/terms/description>
+                "GTA includes Toronto, Durham, Mississauga, Halton, Peel and York Regions"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/title>
+                "Greater Toronto Area"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/LanguageAvailability_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#LanguageAvailability> ;
+        <http://purl.org/dc/elements/1.1/language>
+                "English"@en ;
+        <http://purl.org/dc/terms/description>
+                "English."@en .
+
+<http://Ontario211.ca/InternetResource_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#InternetResource> ;
+        <http://purl.org/dc/terms/description>
+                "www.ymcagta.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#url>
+                <http://www.ymcagta.org > .
+
+<http://Ontario211.ca/ServiceArea_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#ServiceArea> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#servesGeographicArea>
+                <http://Ontario211.ca/Location_1> .
+
+<http://Ontario211.ca/Taxonomy_3a>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Taxonomy> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#TaxonomyCode>
+                "PL-6400.7000-700"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#taxonomyTerm>
+                "Recreation Centres"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Document_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Document> ;
+        <http://purl.org/dc/terms/description>
+                "None required."@en ;
+        <http://purl.org/dc/terms/title>
+                "None"@en .
+
+<http://Ontario211.ca/Address_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Address> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isMailingAddress>
+                true ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isPhysicalAddress>
+                true ;
+        <http://www.w3.org/2006/vcard/ns#country-name>
+                "Canada"@en ;
+        <http://www.w3.org/2006/vcard/ns#locality>
+                "Toronto"@en ;
+        <http://www.w3.org/2006/vcard/ns#postal-code>
+                "M1B3C6"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#region>
+                "Ontario"@en ;
+        <http://www.w3.org/2006/vcard/ns#street-address>
+                "10 Milner Business Crt Ste 600"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Service_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Service> ;
+        <http://purl.org/dc/terms/description>
+                " Eligibility screening, language skills assessment and referral to English or French language government-funded programs * programs include Language Instruction for Newcomers to Canada (LINC)/Cours de Langue pour les Immigrants au Canada (CLIC), LINC Home Study, English as a Second Language (ESL)programs/French as a Second Langauge (FSL), Higher-Level Language Training (HLLT), Enhanced Language Training (ELT), Occupation-Specific Language Training (OSLT), and Specialized Language Training (SLT)"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/title>
+                "YMCA Language Assessment and Referral Centre" ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgency>
+                <http://Ontario211.ca/Agency_2> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSite>
+                <http://Ontario211.ca/Site_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSiteService>
+                <http://Ontario211.ca/SiteService_5> .
+
+<http://Ontario211.ca/Site_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Site> ;
+        <http://purl.org/dc/terms/title>
+                "West End YMCA Health, Fitness and Recreation Centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#disabilities>
+                "Wheelchair accessible building including main entrance and barrier free washrooms* street parking nearby"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAddress>
+                <http://Ontario211.ca/Address_3> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgency>
+                <http://Ontario211.ca/Agency_2> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSiteService>
+                <http://Ontario211.ca/SiteService_3> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#locatedAtCrossStreet>
+                "Dovercourt Rd and College St"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Taxonomy_5a>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Taxonomy> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#TaxonomyCode>
+                "HL-2000.0550"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#taxonomyTerm>
+                "Adult English as a Second Language Tests"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Location_3>
+        a       <http://purl.org/dc/terms/Location> ;
+        <http://purl.org/dc/terms/description>
+                "Serves residents of the City of Toronto"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/title>
+                "Toronto (City of)"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Taxonomy_4c>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Taxonomy> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#TaxonomyCode>
+                "PH-6200-4500"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#taxonomyTerm>
+                "Leadership Development"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/SiteService_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#SiteService> ;
+        <http://purl.org/dc/terms/title>
+                "Language Assessment and Referral Centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAddress>
+                <http://Ontario211.ca/Address_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasApplicationProcess>
+                <http://Ontario211.ca/ApplicationProcess_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasInternetResource>
+                < http://Ontario211.ca/InternetResource_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasLanguageAvailability>
+                <http://Ontario211.ca/LanguageAvailability_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSite>
+                <http://Ontario211.ca/Site_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasTaxonomy>
+                < http://Ontario211.ca/Taxonomy_5b> , < http://Ontario211.ca/Taxonomy_5a> , < http://Ontario211.ca/Taxonomy_5c> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#offersService>
+                <http://Ontario211.ca/Service_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#openHoursDescription:>
+                "Office -- Mon-Fri 8:30 am-4:30 pm, also Wed 4:30 pm-7 pm, Sat 9 am-5 pm, Sun 9 am-5 pm * Assessment hotline -- Mon-Fri 9 am-5 pm"@en ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#requiresGeneralEligibility>
+                "Adults 18 years or older or with a high school diploma are eligible if they meet one of these criteria: Canadian Citizen born outside of Canada, Convention Refugee/Protected Person/Refugee Claimant, holding an initial approval of residency letter from Citizenship and Immigration Canada,Temporary Worker or Student who has obtained initial approval for a concurrent Application for Permanent Residence, worker admitted under the Live-In Caregiver Program."@en ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#servesGeographicArea>
+                <http://Ontario211.ca/ServiceArea_5> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#structuresFees>
+                "Free"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#hasTelephone>
+                [ a       <http://www.w3.org/2006/vcard/ns#Voice> ;
+                  <http://www.w3.org/2006/vcard/ns#hasValue>
+                          <http://23.251.152.188/ds/tel +14169755462>
+                ] .
+
+<http://Ontario211.ca/Document_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Document> ;
+        <http://purl.org/dc/terms/description>
+                "Membership card."@en .
+
+<http://Ontario211.ca/Agency_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Agency> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAlternateName:>
+                <http://Ontario211.ca/AlternateName_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSite>
+                <http://Ontario211.ca/Site_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#offersService:>
+                <http://Ontario211.ca/Service_1> ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail>
+                <mailto:sharc@toronto.ca> ;
+        <http://www.w3.org/2006/vcard/ns#organization-name>
+                "TORONTO. STREETS TO HOMES ASSESSMENT AND REFERRAL CENTRE"@en ;
+        <http://www.w3.org/2006/vcard/ns#url>
+                <http://www.toronto.ca/housing/index.htm> .
+
+<http://Ontario211.ca/OpenHours_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#OpenHours> ;
+        <http://purl.org/dc/terms/description>
+                "Housing walk-in service -- Mon, Wed, Fri 9 am-12 noon,  clients must arrive by 11:30 am  * walk-in shelter referral and respite services -- Mon-Sun 24 hours * ID clinic -- Mon 12 noon-2 pm."@en .
+
+<http://Ontario211.ca/Address_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Address> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isMailingAddress>
+                true ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isPhysicalAddress>
+                true ;
+        <http://www.w3.org/2006/vcard/ns#country-name>
+                "Canada"@en ;
+        <http://www.w3.org/2006/vcard/ns#locality>
+                "Toronto"@en ;
+        <http://www.w3.org/2006/vcard/ns#postal-code>
+                "M6H1A1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#region>
+                "Ontario"@en ;
+        <http://www.w3.org/2006/vcard/ns#street-address>
+                "931 College St"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Site_2>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Site> ;
+        <http://purl.org/dc/terms/title>
+                "YMCA of Greater Toronto" ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#disabilities>
+                "Wheelchair accessible building including main entrance and barrier free washrooms"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAddress>
+                <http://Ontario211.ca/Address_2> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgency>
+                <http://Ontario211.ca/Agency_2> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSiteService>
+                <http://Ontario211.ca/SiteService_2> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#locatedAtCrossStreet>
+                "Yonge St and Eglinton Ave West"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Service_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Service> ;
+        <http://purl.org/dc/terms/description>
+                " Settlement information and referral * settlement information sessions in various locations * guest speaker series * Newcomer Network * access to computers, fax, photocopiers,and phone * settlement resource library * information on topics such as immigration and citizenship, employment and job searching, access to trades and professions, credential assessment, education and training, language classes, health and housing, community, recreation and consumer resources, human rights, legal and social services, child, youth and family resources, food, shelter, and clothing * Community Connections Mentorship Program (formerly HOST Program) -- group activities for newly arrived immigrants and refugees of all ages to help orient them to their new community and establish social and professional networks * trained and experienced volunteer mentors assist, with focus on citizenship and civic engagement or skills and career development * Newcomer Youth Services -- youth-focused settlement information and referral * Newcomer Youth     Leadership Development -- youth learn about their community, gain volunteer hours, build leadership, language, communication and social skills * workshops and activities for parents and youth"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/title>
+                "YMCA Newcomer Information Centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgency>
+                <http://Ontario211.ca/Agency_2> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSite>
+                <http://Ontario211.ca/Site_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSiteService>
+                <http://Ontario211.ca/SiteService_4> .
+
+<http://Ontario211.ca/ApplicationProcess_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#ApplicationProcess> ;
+        <http://purl.org/dc/terms/description>
+                "Walk in * telephone shelter intake through Central Intake Program -- see separate entry"@en ;
+        <http://purl.org/dc/terms/title>
+                "Walk in * telephone shelter intake through Central Intake Program -- see separate entry "@en .
+
+<http://Ontario211.ca/ServiceArea_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#ServiceArea> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#servesGeographicArea>
+                <http://Ontario211.ca/Location_4> .
+
+<http://Ontario211.ca/LanguageAvailability_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#LanguageAvailability> ;
+        <http://purl.org/dc/elements/1.1/language>
+                "English"@en ;
+        <http://purl.org/dc/terms/description>
+                "English; Other languages may be available."@en .
+
+<http://Ontario211.ca/InternetResource_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#InternetResource> ;
+        <http://purl.org/dc/terms/description>
+                "www.toronto.ca/housing/index.htm."^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#url>
+                <http://www.toronto.ca/housing/index.htm > .
+
+<http://Ontario211.ca/AlternateName_2>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#AlternateName> ;
+        <http://purl.org/dc/terms/title:>
+                "Young Men.s Christian Association of Greater Toronto"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/SiteService_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#SiteService> ;
+        <http://purl.org/dc/terms/title>
+                "Newcomer Information Centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAddress:>
+                <http://Ontario211.ca/Address_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasApplicationProcess>
+                <http://Ontario211.ca/ApplicationProcess_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasInternetResource>
+                < http://Ontario211.ca/InternetResource_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasLanguageAvailability>
+                <http://Ontario211.ca/LanguageAvailability_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSite>
+                <http://Ontario211.ca/Site_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasTaxonomy>
+                < http://Ontario211.ca/Taxonomy_4a> , < http://Ontario211.ca/Taxonomy_4b> , < http://Ontario211.ca/Taxonomy_4c> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#offersService>
+                <http://Ontario211.ca/Service_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#openHoursDescription>
+                "Mon 9-5, Tues 9-7, Wed-Thur 9-5, Fri 9-1"@en ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#requiresGeneralEligibility>
+                "Newcomers (landed immigrants and convention refugees*Youth services . landed immigrants and convention refugees 13-24 years of age."@en ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#servesGeographicArea>
+                <http://Ontario211.ca/ServiceArea_4> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#structuresFees>
+                "Free"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#hasTelephone>
+                [ a       <http://www.w3.org/2006/vcard/ns#Voice> ;
+                  <http://www.w3.org/2006/vcard/ns#hasValue>
+                          <http://23.251.152.188/ds/tel +14166090218 ext 242>
+                ] .
+
+<http://Ontario211.ca/Taxonomy_4b>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Taxonomy> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#TaxonomyCode>
+                "PH-1450.7000"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#taxonomyTerm>
+                "Refugee Resettlement Services"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Address_2>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Address> ;
+        <http://purl.org/dc/terms/description>
+                "C.est le bureau administratif de cette agence."@fr , "This is the administrative office of this agency."@en ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isMailingAddress>
+                true ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isPhysicalAddress>
+                true ;
+        <http://www.w3.org/2006/vcard/ns#country-name>
+                "Canada"@en ;
+        <http://www.w3.org/2006/vcard/ns#locality>
+                "Toronto"@en ;
+        <http://www.w3.org/2006/vcard/ns#postal-code>
+                "M4S2C6"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#region>
+                "Ontario"@en ;
+        <http://www.w3.org/2006/vcard/ns#street-address>
+                "2200 Yonge St Ste 300"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Site_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Site> ;
+        <http://purl.org/dc/terms/title>
+                "TORONTO. STREETS TO HOMES ASSESSMENT AND REFERRAL CENTRE" ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#disabilities>
+                "Wheelchair accessible automatic main entrance; Barrier-free washroom including door and stall"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAddress>
+                <http://Ontario211.ca/Address_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgency>
+                <http://Ontario211.ca/Agency_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSiteService>
+                <http://Ontario211.ca/SiteService_1> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#locatedAtCrossStreet>
+                "Corner of Richmond and Peter Streets"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Service_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Service> ;
+        <http://purl.org/dc/terms/description>
+                "Fitness, aquatics, sports and recreation programs for all ages and abilities, individuals, couples and families*fitness testing*babysitting may be available during programs"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/title>
+                "West End YMCA Health, Fitness and Recreation Centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAgency>
+                <http://Ontario211.ca/Agency_2> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSite>
+                <http://Ontario211.ca/Site_3> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSiteService>
+                <http://Ontario211.ca/SiteService_3> .
+
+<http://Ontario211.ca/ServiceArea_4>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#ServiceArea> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#servesGeographicArea>
+                <http://Ontario211.ca/Location_4> .
+
+<http://Ontario211.ca/Location_1>
+        a       <http://purl.org/dc/terms/Location> ;
+        <http://purl.org/dc/terms/description>
+                "Serves residents of the City of Toronto"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/title>
+                "Toronto (City of)"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/OpenHours_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#OpenHours> ;
+        <http://purl.org/dc/terms/description>
+                " Office -- Mon-Fri 8:30 am-4:30 pm, also Wed 4:30 pm-7 pm, Sat 9 am-5 pm, Sun 9 am-5 pm * Assessment hotline -- Mon-Fri 9 am-5 pm."@en .
+
+<http://Ontario211.ca/AlternateName_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#AlternateName> ;
+        <http://purl.org/dc/terms/title:>
+                "The Sharc"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/Document_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Document> ;
+        <http://purl.org/dc/terms/description>
+                "None required."@en ;
+        <http://purl.org/dc/terms/title>
+                "None"@en .
+
+<http://Ontario211.ca/SiteService_3>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#SiteService> ;
+        <http://purl.org/dc/terms/title>
+                "West End YMCA Health, Fitness and Recreation Centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasAddress:>
+                <http://Ontario211.ca/Address_3> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasInternetResource>
+                <http://Ontario211.ca/InternetResource_3> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasLanguageAvailability:>
+                <http://Ontario211.ca/LanguageAvailability_3> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasSite>
+                <http://Ontario211.ca/Site_3> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#hasTaxonomy>
+                < http://Ontario211.ca/Taxonomy_3b> , < http://Ontario211.ca/Taxonomy_3c> , < http://Ontario211.ca/Taxonomy_3a> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#offersService:>
+                <http://Ontario211.ca/Service_3> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#openHoursDescription:>
+                " Mon-Fri 5:30 am-11 pm * Sat-Sun 7 am-8 pm * holiday hours vary."@en ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#requiresGeneralEligibility>
+                "Members of the YMCA."@en ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#servesGeographicArea:>
+                <http://Ontario211.ca/ServiceArea_3> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#structuresFees:>
+                "Monthly fees . financial assistance available"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#hasTelephone>
+                [ a       <http://www.w3.org/2006/vcard/ns#Voice> ;
+                  <http://www.w3.org/2006/vcard/ns#hasValue:tel>
+                          +14165369622
+                ] .
+
+<http://Ontario211.ca/Taxonomy_4a>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Taxonomy> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#TaxonomyCode>
+                "PH-1450.3400"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#taxonomyTerm>
+                "Immigrant Settlement Services"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/ApplicationProcess_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#ApplicationProcess> ;
+        <http://purl.org/dc/terms/description>
+                " Call Assessment hotline to book an appointment "@en .
+
+<http://Ontario211.ca/AgeRequirement_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#AgeRequirement> ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#requiresMinimumAge>
+                "16"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+
+<http://Ontario211.ca/Address_1>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#Address> ;
+        <http://purl.org/dc/terms/description>
+                "This is the main address for this agency."@en , "Ce l'adresse principale de cette agence."@fr ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isMailingAddress>
+                true ;
+        <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#isPhysicalAddress>
+                true ;
+        <http://www.w3.org/2006/vcard/ns#country-name>
+                "Canada"@en ;
+        <http://www.w3.org/2006/vcard/ns#locality>
+                "Toronto"@en ;
+        <http://www.w3.org/2006/vcard/ns#postal-code>
+                "M5V2H3"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/2006/vcard/ns#region>
+                "Ontario"@en ;
+        <http://www.w3.org/2006/vcard/ns#street-address>
+                "129 Peter St"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://Ontario211.ca/LanguageAvailability_5>
+        a       <http://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl#LanguageAvailability> ;
+        <http://purl.org/dc/elements/1.1/language>
+                "English, French, Arabic, Chinese (Mandarin), Fanti, Farsi, Ga, Hindi, Kannada, Konkani, Lithuanian, Russian, Spanish, Tamil, Tulu, Turkish, Twi, Ukrainian"@en ;
+        <http://purl.org/dc/terms/description>
+                "English, French, Arabic, Chinese (Mandarin), Fanti, Farsi, Ga, Hindi, Kannada, Konkani, Lithuanian, Russian, Spanish, Tamil, Tulu, Turkish, Twi,Ukrainian."@en .
+
